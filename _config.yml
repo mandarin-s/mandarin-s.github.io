@@ -50,13 +50,13 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  #- jekyll-feed
   - jemoji
   - jekyll-include-cache
 
 author:
   name   : "Mondrian Syafaat"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/bio-photo.png"
   bio    : "Materials Science & Engineering Student and Tennis Enthusiast @ UC Merced. Analyzing the hardware of the sport."
   links:
     #- label: "Twitter"
