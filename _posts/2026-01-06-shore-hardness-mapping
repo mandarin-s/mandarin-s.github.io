@@ -1,0 +1,33 @@
+---
+title: "The Hardness Gradient: Mapping Shore A vs. Shore D in Wilson Rackets"
+date: 2026-02-06
+categories:
+  - Material Analysis
+tags:
+  - Shore Hardness
+  - Wilson
+  - Polymers
+header:
+  teaser: /assets/images/shore-test-teaser.jpg
+excerpt: "An investigation into how manufacturers use variable modulus polymers to engineer 'feel' in stiff frames."
+---
+
+## Hypothesis
+Marketing materials claim the new Wilson Blade has "Direct Connect" technology for better feel. Structurally, this implies a variation in polymer modulus between the handle and the hoop.
+
+## Methodology
+Using a **Shore A Durometer** (for elastomers) and **Shore D Durometer** (for structural resins), I mapped the hardness at 3 key zones:
+1. The PU Foam Handle
+2. The Grommet Strip
+3. The Carbon Matrix (Hoop)
+
+## Data Analysis
+
+| Zone | Shore A (Soft) | Shore D (Hard) | Material Classification |
+|:---|:---:|:---:|:---|
+| Handle Foam | 45A | - | Soft Elastomer |
+| Grommets | 95A | 48D | Semi-Rigid Nylon |
+| Hoop Resin | - | 85D | Cured Epoxy Matrix |
+
+## Conclusion
+The data reveals a stark "Hardness Gradient." The player touches a material (45A) that is **~40% softer** than the frame (85D). This confirms that "feel" is largely a function of the handle assembly, not just the frame flex.

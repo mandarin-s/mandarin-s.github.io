@@ -1,9 +1,7 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Lab Notebook" # This is your Blog
+    url: /year-archive/
+  - title: "Racket Autopsies" # Featured Projects
+    url: /collection-archive/
+  - title: "CV"
+    url: /cv/
