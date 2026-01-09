@@ -25,7 +25,7 @@ Today, **HEAD** is one of the companies at the forefront of this innovation. The
 
 ---
 
-## 1. Auxetic: next generation of effective damping
+## 1. Auxetic: The Next Generation of Effective Damping
 Auxetic materials are defined by their **negative Poisson's ratio**, meaning they thicken when stretched, allowing for more effective energy absorption. This unique behavior is an emergent property of structure and geometry rather than molecular properties.
 
 While HEAD has not published their specific unit cell shapes (smallest repeating unit of molecules that build the crystal structure when stacked in 3D), all auxetic structures follow the same principles. According to **Nugroho et al.**, these structures are porous and constructed with an inward angle (also called re-entrant geometry).
