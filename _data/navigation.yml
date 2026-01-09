@@ -1,7 +1,9 @@
 main:
-  - title: "Lab Notebook" # This is your Blog
+  - title: "Home"
+    url: /
+  - title: "The Tennis Lab" # Your Blog/Autopsies
     url: /year-archive/
-  - title: "Racket Autopsies" # Featured Projects
-    url: /collection-archive/
+  - title: "Design & FEA"   # Your SolidWorks/Sims
+    url: /projects/
   - title: "CV"
     url: /cv/
