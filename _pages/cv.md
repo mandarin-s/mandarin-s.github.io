@@ -33,8 +33,8 @@ Materials Science & Engineering student (Computational Emphasis) bridging the ga
 ---
 
 ## Certifications
-* **[CodePath Intro to Cybersecurity Certification of Completion (Honors)]** | May 2024: 
-Technical proficiency in data privacy, risk assessment, network security, and secure communication protocols (SSH/PKI).
+* **[CodePath Intro to Cybersecurity Certification of Completion (Honors)]** | *May 2024*
+* Technical proficiency in data privacy, risk assessment, network security, and secure communication protocols (SSH/PKI).
 
 ---
 
@@ -61,8 +61,8 @@ Technical proficiency in data privacy, risk assessment, network security, and se
 
 ## Leadership & Experience
 
-**UC Merced Tennis Club** | Current President (Various Other Leadership Positions in Past)
+### UC Merced Tennis Club** | Current President
 *August 2023 - Present*
 
-**iTennis (Rose Bowl Tennis Center)** | *Tennis Instructor*
+### iTennis (Rose Bowl Tennis Center)** | *Tennis Instructor*
 *June 2022 - Present*
