@@ -24,21 +24,21 @@ According to the International Tennis Federation (ITF), the jump to carbon fiber
 Today, **HEAD** is one of the companies at the forefront of this innovation. They introduced **AUXETIC 1.0** in early 2022 (in the yoke) and refined it in 2024 as **AUXETIC 2.0** (adding a carbon Auxetic cage in the handle). Most recently, in September 2025, they announced the "HEAD Speed Legend" racket, combining Auxetic 2.0 with **Hy-Bor** technology.
 
 ---
+
+## 1. Auxetic: next generation of effective damping
+Auxetic materials are defined by their **negative Poisson's ratio**, meaning they thicken when stretched, allowing for more effective energy absorption. This unique behavior is an emergent property of structure and geometry rather than molecular properties.
+
+While HEAD has not published their specific unit cell shapes (smallest repeating unit of molecules that build the crystal structure when stacked in 3D), all auxetic structures follow the same principles. According to **Nugroho et al.**, these structures are porous and constructed with an inward angle (also called re-entrant geometry).
+
+
 <figure style="text-align: center; margin: 30px 0;">
   <img src="/assets/images/auxetic-structure.jpg" alt="Auxetic Structure Diagram" style="width: 100%; max-width: 600px; border: 1px solid #ddd;">
   <figcaption style="font-size: 0.85em; color: #666; margin-top: 10px;">
     Fig. 1. AUXETIC 2.0 at rest (left), in tension (middle), and in compression (right). (Source: HEAD)
   </figcaption>
 </figure>
-## 1. Auxetic: next generation of effective damping
-Auxetic materials are defined by their **negative Poisson's ratio**, meaning they thicken when stretched, allowing for more effective energy absorption. This unique behavior is an emergent property of structure and geometry rather than molecular properties.
-
-While HEAD has not published their specific unit cell shapes, all auxetic structures follow the same principles. According to **Nugroho et al.**, these structures are porous and constructed with an inward angle (re-entrant geometry).
-
-
-
 **The Hinge Mechanism:**
-This geometry allows the corners of the unit cell to behave like a hinge. When tensile or compressive stress is applied, the structure deforms rotationally. This allows for **strain-dependent stiffness**, where the effective Young's modulus increases with load in real-time.
+This geometry allows the atoms at the vertices of the unit cell to behave like a hinge. When tensile or compressive stress is applied, the structure deforms the bonds (that form the edges connecting vertex atoms) rotationally. This allows for **strain-dependent stiffness**, where the effective Young's modulus increases with load in real-time.
 
 ---
 
@@ -60,12 +60,12 @@ Since Auxetic 2.0 is made of carbon (which isn't inherently auxetic) it relies o
 In a study conducted by **Allen et al.**, stiff rackets rebounded a ball with **9% more velocity** compared to flexible rackets.
 
 **The Physics of Impulse:**
-This velocity increase is attributed to the contact time. A stiffer racket deforms less, meaning the racket face is in contact with the ball for a shorter duration. Since the normal force is the same, there is greater impulse with the stiffer racket, and energy is more efficiently transferred.
+This velocity increase is attributed to the contact time. A stiffer racket deforms less, meaning the racket face is in contact with the ball for a shorter duration. Since the normal force applied by the string bed is the same in reaction to the force of the ball, there is greater impulse with the stiffer racket, and energy is more efficiently transferred.
 
 **The Trade-Off:**
-According to **Miller**, stiffer rackets absorb energy less effectively, causing higher frequency vibrations that must be dissipated by the player's arm.
+According to **Miller**, this also means that stiffer rackets absorb energy less effectively, causing higher frequency vibrations that must be dissipated by the player's arm.
 
-This is why the combination is critical: **Hy-Bor** increases stiffness (power), while **Auxetic 2.0** uses its negative Poisson's ratio to expand under tension and absorb the resulting energy (comfort).
+This is why the combination is critical: **Hy-Bor** increases stiffness (providing power), while **Auxetic 2.0** uses its negative Poisson's ratio to expand under tension and absorb the excess energy (providing comfort).
 
 ---
 
