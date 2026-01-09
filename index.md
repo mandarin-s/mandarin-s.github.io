@@ -7,7 +7,7 @@ header:
 excerpt: "Materials Science Student & Design Engineer. Bridging the gap between theoretical physics and product performance."
 ---
 
-## Welcome!
+## Welcome
 I am a forensic engineer specializing in **Computational Materials Science** and **Mechanical Design**.
 
 My work is split into two main branches:
