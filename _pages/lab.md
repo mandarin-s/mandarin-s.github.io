@@ -1,7 +1,7 @@
 ---
-permalink: /about/
+permalink: /lab/
 title: "The Forensic Engineering Philosophy"
-layout: single
+layout: archive
 author_profile: true
 header:
   overlay_image: /assets/images/header-bg.jpg
