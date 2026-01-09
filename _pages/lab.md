@@ -1,14 +1,11 @@
 ---
-title: "The Forensic Engineering Project: Why I Autopsy Tennis Rackets"
-date: 2026-01-07
-categories:
-  - Philosophy
-tags:
-  - Intro
-  - Methodology
+permalink: /about/
+title: "The Forensic Engineering Philosophy"
+layout: single
+author_profile: true
 header:
-  teaser: /assets/images/microscope-teaser.jpg
-excerpt: "In engineering school, we are taught to determine a heuristically sufficient answer. In tennis, players claim to feel the nuance of a micron. My goal is to bridge that gap."
+  overlay_image: /assets/images/header-bg.jpg
+  overlay_filter: 0.5
 ---
 
 ## The Gap Between "Feel" and Physics
@@ -20,17 +17,13 @@ In engineering school, we are taught to determine a heuristically sufficient ans
 ### My Core Mission:
 I seek the **physical explanations for phenomenological experiences.** Do the intangible sensations players describe (such as "pocketing," "crispness," and "plushness") hold up to scientific scrutiny? Are these experiences epistemologically true, rooted in material reality, or are they merely cognitive biases born from marketing and hearsay?
 
-### My Methodology
+---
 
-This site is my "Forensic Engineering" lab notebook. I don't rely purely on brochures. 
+## 🔬 The Lab Notebook (Latest Autopsies)
+Below are my latest investigations into string mechanics, polymer degradation, and composite failure.
 
-My investigations rely on:
-
-1.  **Microscopy:** Analyzing the tribological wear of polyester strings.
-2.  **Hardness Testing:** Mapping the Shore A vs. Shore D gradients in modern frames.
-3.  **Beam Theory:** Calculating the true stiffness (EI) of racket geometries.
-
-### Current Projects
-
-
-*Data dropping soon.*
+<div class="entries-grid">
+  {% for post in site.posts limit:10 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>

@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: /
   - title: "The Tennis Lab" # Your Blog/Autopsies
-    url: /year-archive/
+    url: /lab/
   - title: "Design & FEA"   # Your SolidWorks/Sims
     url: /projects/
   - title: "CV"
