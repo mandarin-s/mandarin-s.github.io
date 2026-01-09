@@ -22,7 +22,7 @@ layout: archive
 </details>
 <p>
   <a href="/assets/docs/trailer-design-slides.pdf" class="btn btn--primary">
-    <i class="fas fa-file-pdf"></i> Download Full Design Slides
+    <i class="fas fa-file-pdf"></i> Full Design Slides
   </a>
 </p>
 ---
