@@ -8,7 +8,7 @@ author_profile: true
 ## Summary
 Materials Science & Engineering student (Computational Emphasis) bridging the gap between theoretical physics and product performance. Specializing in **Finite Element Analysis (FEA)**, **Composite Mechanics**, and **Data-Driven Design**.
 
-<a href="/assets/docs/mondrian-resume.pdf" class="btn btn--primary btn--large"><i class="fas fa-file-pdf"></i> Download Full Resume</a>
+<a href="/assets/docs/mondrian-resume.pdf" class="btn btn--primary btn--large"><i class="fas fa-file-pdf"></i> Full Resume</a>
 
 ---
 
