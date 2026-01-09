@@ -1,0 +1,38 @@
+/* Lab Dashboard Split Layout */
+.lab-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows stacking on mobile */
+    gap: 40px;       /* Space between the columns */
+  }
+  
+  .lab-manifesto {
+    flex: 2;         /* Takes up 2/3rds of the space */
+    min-width: 300px;
+  }
+  
+  .lab-sidebar {
+    flex: 1;         /* Takes up 1/3rd of the space */
+    min-width: 250px;
+    background-color: #f8f9fa; /* Light grey background for the feed */
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #333; /* A nice "Tech" accent line */
+    height: fit-content;
+  }
+  
+  .lab-sidebar h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .lab-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lab-sidebar li {
+    margin-bottom: 15px;
+    font-size: 0.9em;
+  }
