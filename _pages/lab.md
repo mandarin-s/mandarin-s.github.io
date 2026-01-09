@@ -90,7 +90,7 @@ classes: wide
   </div>
 
   <div class="lab-sidebar">
-    <h3>🔬 Recent Autopsies</h3>
+    <h3>Recent Autopsies</h3>
     <ul>
       {% for post in site.posts limit:5 %}
         <li>
