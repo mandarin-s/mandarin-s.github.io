@@ -25,7 +25,7 @@ Today, **HEAD** is one of the companies at the forefront of this innovation. The
 
 ---
 <figure style="text-align: center; margin: 30px 0;">
-  <img src="/assets/images/auxetic-diagram.png" alt="Auxetic Structure Diagram" style="width: 100%; max-width: 600px; border: 1px solid #ddd;">
+  <img src="/assets/images/auxetic-structure.jpg" alt="Auxetic Structure Diagram" style="width: 100%; max-width: 600px; border: 1px solid #ddd;">
   <figcaption style="font-size: 0.85em; color: #666; margin-top: 10px;">
     Fig. 1. AUXETIC 2.0 at rest (left), in tension (middle), and in compression (right). (Source: HEAD)
   </figcaption>
