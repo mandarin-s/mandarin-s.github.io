@@ -33,9 +33,8 @@ Materials Science & Engineering student (Computational Emphasis) bridging the ga
 ---
 
 ## Certifications
-*(Add your specific CS/Cybersecurity certs here as discussed)*
-* **[Cert Name, e.g., CompTIA Security+]**: Systems analysis and vulnerability assessment.
-* **[Cert Name, e.g., CS50]**: Algorithms and Data Structures.
+* **[CodePath Intro to Cybersecurity Certification of Completion (Honors)]** | May 2024: 
+Technical proficiency in data privacy, risk assessment, network security, and secure communication protocols (SSH/PKI).
 
 ---
 
@@ -62,11 +61,8 @@ Materials Science & Engineering student (Computational Emphasis) bridging the ga
 
 ## Leadership & Experience
 
-**UC Merced Tennis Club** | *President & Founder*
+**UC Merced Tennis Club** | Current President (Various Other Leadership Positions in Past)
 *August 2023 - Present*
-* **The "Moneyball" Approach:** Developed a custom **"ELO Calculation" algorithm** to assemble competitive teams based on statistical performance rather than subjective bias.
-* Managed team finances, organized fundraisers, and led weekly training for competitive members.
 
-**iTennis (Rose Bowl Tennis Center)** | *Tennis Coach*
+**iTennis (Rose Bowl Tennis Center)** | *Tennis Instructor*
 *June 2022 - Present*
-* Coaching diverse age groups (5yo to Adult) in technical mechanics and strategy.
