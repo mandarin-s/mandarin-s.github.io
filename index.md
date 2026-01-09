@@ -19,5 +19,3 @@ My portfolio is divided into two main branches:
 2.  **[Design & FEA](/projects/):** Classic mechanical engineering, parametric CAD, and finite element analysis simulations.
 
 ---
-
-### Latest Updates
