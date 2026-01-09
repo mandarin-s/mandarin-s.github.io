@@ -33,7 +33,7 @@ Materials Science & Engineering student (Computational Emphasis) bridging the ga
 ---
 
 ## Certifications
-### [CodePath Intro to Cybersecurity Certification of Completion (Honors)]** | *May 2024*
+### CodePath Intro to Cybersecurity Certification of Completion (Honors)** | *May 2024*
 * Technical proficiency in data privacy, risk assessment, network security, and secure communication protocols (SSH/PKI).
 
 ---
