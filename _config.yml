@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Mondrian Syafaat"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "Materials Science & Engineering Student and Tennis Enthusiast @ UC Merced. Analyzing the hardware of the sport."
+  bio    : "Materials Science & Engineering Student with Computational Emphasis @ UC Merced."
   links:
     #- label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
