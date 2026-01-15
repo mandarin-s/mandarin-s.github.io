@@ -89,24 +89,52 @@ classes: wide
     </div>
   </div>
 
-  <div class="lab-sidebar">
-    <h3>Recent Autopsies</h3>
-    <ul>
-      {% for post in site.posts limit:5 %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a><br>
-          <small style="color: #6a737d;">{{ post.date | date: "%B %d, %Y" }}</small>
-        </li>
-      {% endfor %}
-    </ul>
-    
-    {% if site.posts.size == 0 %}
-      <p style="color: red; font-size: 0.8em;">*No posts found.*</p>
-    {% endif %}
+<div class="sidebar-column">
 
-    <div style="margin-top: 20px; text-align: center;">
-      <a href="/year-archive/" class="btn btn--inverse btn--small" style="width: 100%;">View Full Archive</a>
-    </div>
+  <div class="case-widget active-cases">
+    <h3 class="widget-title">
+      <span class="status-icon">⚠️</span> Open Case Files
+    </h3>
+    <p class="widget-subtitle">Active investigations & live dev logs.</p>
+    
+    <ul class="case-list">
+      <li>
+        <a href="/projects/cor-part-1">
+          <span class="case-id">CASE 002:</span>
+          <span class="case-name">Project COR - Phase 1: Algorithm Design</span>
+          <span class="case-date">Jan 16, 2026</span>
+        </a>
+      </li>
+      <li>
+        <span class="case-id" style="opacity:0.5">CASE 002:</span>
+        <span class="case-name" style="opacity:0.5">Phase 2: Calibration (Pending)</span>
+      </li>
+    </ul>
+  </div>
+
+  <div style="height: 30px;"></div>
+
+  <div class="case-widget closed-cases">
+    <h3 class="widget-title">
+      <span class="status-icon">📁</span> Case Archive
+    </h3>
+    <p class="widget-subtitle">Final forensic reports & autopsies.</p>
+    
+    <ul class="case-list">
+      <li>
+        <a href="/autopsies/head-auxetic">
+          <span class="case-id">CASE 001:</span>
+          <span class="case-name">Decoded: The Physics of HEAD's Auxetic Tech</span>
+          <span class="case-date">Dec 12, 2025</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/autopsies/archive">
+          <button class="archive-btn">View Full Archive</button>
+        </a>
+      </li>
+    </ul>
   </div>
 
 </div>
