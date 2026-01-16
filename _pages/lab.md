@@ -1,174 +1,93 @@
 ---
-layout: default
-title: The Lab
+layout: archive
+title: "The Forensic Tennis Lab"
 permalink: /lab/
+author_profile: true
+header:
+  overlay_image: /assets/images/header-bg.jpg
+  overlay_filter: 0.5
+classes: wide
 ---
 
 <style>
-  /* --- SECTION 1: HERO BANNER --- */
-  .lab-hero {
-    /* REPLACE 'banner.jpg' WITH YOUR ACTUAL IMAGE PATH */
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('/assets/images/banner.jpg'); 
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 5%;
-    border-radius: 8px; /* Optional rounded corners */
-    margin-bottom: 30px;
-    color: white;
+  /* Force the container to use maximum available space */
+  .page__inner-wrap {
+    max-width: 100% !important; /* Overrides the theme's narrow limit */
   }
-
-  .lab-hero h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    margin: 0;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
-  }
-
-  /* --- SECTION 2: PROFILE BAR --- */
-  .profile-section {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 40px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #eee;
-  }
-
-  .profile-avatar {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 1px solid #ddd;
-  }
-
-  .profile-info h2 {
-    margin: 0 0 5px 0;
-    font-size: 1.4rem;
-    color: #111;
-  }
-
-  .profile-info p {
-    margin: 0;
-    color: #555;
-    font-size: 0.95rem;
-  }
-
-  .follow-btn {
-    margin-left: auto; /* Pushes button to far right */
-    padding: 8px 16px;
-    border: 1px solid #ccc;
-    background: transparent;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: 600;
-    color: #333;
-  }
-
-  /* --- SECTION 3: MAIN LAYOUT (Content + Sidebars) --- */
+  
   .lab-container {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 40px;
+    margin-top: 20px;
   }
 
-  .main-content {
-    flex: 2;
+  .lab-manifesto {
+    flex: 3; /* CHANGED: Now takes 75% of the width */
+    min-width: 300px; /* Prevents it from getting too skinny on phones */
   }
 
-  .sidebar-column {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  /* WIDGET STYLES */
-  .case-widget {
-    background: #f8f9fa;
-    border: 1px solid #e9ecef;
+  .lab-sidebar {
+    flex: 1; /* Takes 25% of the width */
+    min-width: 250px;
+    background-color: #f8f9fa;
+    padding: 25px;
     border-radius: 8px;
-    padding: 20px;
+    border-left: 5px solid #24292e; /* Darker accent line */
+    height: fit-content;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Subtle shadow for depth */
   }
 
-  .active-cases { border-left: 5px solid #f1c40f; }
-  .closed-cases { border-left: 5px solid #2c3e50; }
-
-  .widget-title {
+  .lab-sidebar h3 {
     margin-top: 0;
-    font-size: 1.1rem;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .widget-subtitle {
-    font-size: 0.85rem;
-    color: #6c757d;
+    font-size: 1.1em;
+    border-bottom: 2px solid #e1e4e8;
+    padding-bottom: 15px;
     margin-bottom: 15px;
-    font-style: italic;
   }
 
-  .case-list { list-style: none; padding: 0; margin: 0; }
-  .case-list li { margin-bottom: 12px; border-bottom: 1px solid #eee; padding-bottom: 8px; }
-  .case-list li:last-child { border: none; }
+  .lab-sidebar ul {
+    list-style: none; /* Removes bullet points for a cleaner look */
+    padding: 0;
+    margin: 0;
+  }
+
+  .lab-sidebar li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee; /* Light separator lines */
+    padding-bottom: 10px;
+  }
   
-  .case-list a { text-decoration: none; display: block; }
-  .case-list a:hover { opacity: 0.8; }
-
-  .case-id { display: block; font-size: 0.7rem; font-weight: 800; color: #adb5bd; letter-spacing: 1px; }
-  .case-name { display: block; font-weight: 600; font-size: 0.95rem; color: #2c3e50; }
-  .case-date { font-size: 0.75rem; color: #999; }
-
-  .archive-btn {
-    width: 100%; padding: 8px; background: #fff; border: 1px solid #ced4da;
-    border-radius: 4px; color: #495057; font-weight: 600; cursor: pointer;
+  .lab-sidebar li:last-child {
+    border-bottom: none;
   }
 
-  /* MOBILE RESPONSIVE */
-  @media (max-width: 768px) {
-    .lab-container { flex-direction: column; }
-    .profile-section { flex-direction: column; text-align: center; }
-    .follow-btn { margin: 10px auto 0 auto; }
+  .lab-sidebar a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #0366d6;
+  }
+  
+  .lab-sidebar a:hover {
+    text-decoration: underline;
   }
 </style>
 
-
-<div class="lab-hero">
-  <h1>The Forensic Tennis Lab</h1>
-</div>
-
-<div class="profile-section">
-  <img src="/assets/images/profile.jpg" alt="Mondrian Syafaat" class="profile-avatar">
-  
-  <div class="profile-info">
-    <h2>Mondrian Syafaat</h2>
-    <p>Materials Science & Engineering Student with Computational Emphasis @ UC Merced.</p>
-  </div>
-
-  <button class="follow-btn">Follow</button>
-</div>
-
-
 <div class="lab-container">
 
-  <div class="main-content">
+  <div class="lab-manifesto">
     <h2>The Gap Between "Feel" and Physics</h2>
-    
-    <p>I am a Materials Science student and competitive tennis player obsessed with one question: <em>What is actually happening when ball meets string?</em></p>
+    <p style="font-size: 1.1em; line-height: 1.6;">
+      I am a Materials Science student and competitive tennis player obsessed with one question: <em>What is actually happening when ball meets string?</em>
+    </p>
 
-    <p>In engineering school, we are taught to find heuristic solutions, maximizing for safe functionality. In tennis, players claim to feel the nuance of a micron. My goal is to bridge this gap.</p>
+    <p>In engineering school, we are taught to find heuristic solutions, maximizing for safe functionality. In tennis, players claim to feel the nuance of a micron (though sometimes they are just looking for excuses). My goal is to bridge this gap. I treat the tennis racket not just as a piece of equipment, but as a complex system of viscoelastic polymers and composite laminates that must manage energy transfer (hysteresis) and vibration damping (entropy).</p>
 
-    <p>I treat the tennis racket not just as a piece of equipment, but as a complex system of viscoelastic polymers and composite laminates that must manage energy transfer (hysteresis) and vibration damping (entropy).</p>
-    
-    <p>This lab is my open notebook for forensic engineering investigations into sports technology.</p>
+    <div style="background: #eef6fc; padding: 20px; border-left: 5px solid #207de5; margin: 30px 0;">
+      <h3 style="margin-top: 0;">My Core Mission</h3>
+      <p style="margin-bottom: 0;">I seek the <strong>physical explanations for phenomenological experiences.</strong> Do the intangible sensations players describe (such as "pocketing," "crispness," and "plushness") actually hold up to scientific scrutiny? Are these experiences <strong>epistemologically true</strong>, rooted in material reality, or are they cognitive biases born from marketing and hearsay?</p>
+    </div>
   </div>
-
 
   <div class="sidebar-column">
 
@@ -212,7 +131,3 @@ permalink: /lab/
     </div>
 
   </div> </div> ```
-
-### Important Next Steps
-1.  **Fix the Banner Image:** Look for `url('/assets/images/banner.jpg')` in the CSS section. Change `/assets/images/banner.jpg` to the actual path of your racket image (the one with the dark background).
-2.  **Fix the Avatar:** Look for `<img src="/assets/images/profile.jpg"...` in the HTML section. Change that path to your profile picture location.
