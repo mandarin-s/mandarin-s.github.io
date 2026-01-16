@@ -1,6 +1,9 @@
 ---
 title: "Decoded: The Physics of HEAD's Auxetic & Hy-Bor Tech"
 date: 2025-12-12
+layout: single
+status: closed        # <--- Use 'closed' for finished reports
+case_id: "001"        # <--- Add this so the sidebar shows "CASE 001"
 categories:
   - Industry Analysis
 tags:

@@ -163,7 +163,7 @@ classes: wide
 
     <div style="background: #eef6fc; padding: 20px; border-left: 5px solid #207de5; margin: 30px 0;">
       <h3 style="margin-top: 0;">My Core Mission</h3>
-      <p style="margin-bottom: 0;">I seek the <strong>physical explanations for phenomenological experiences.</strong> Do the intangible sensations players describe (such as "pocketing," "crispness," and "plushness") actually hold up to scientific scrutiny? Are these experiences <strong>epistemologically true</strong>, rooted in material reality, or are they cognitive biases born from marketing and hearsay?</p>
+      <p style="margin-bottom: 0;">I seek the physical explanations for phenomenological experiences. Do the intangible sensations players describe (such as "pocketing," "crispness," and "plushness") actually hold up to scientific scrutiny? Are these experiences epistemologically true, rooted in material reality, or are they cognitive biases born from marketing and hearsay?</p>
     </div>
   </div>
 
@@ -174,19 +174,19 @@ classes: wide
       <p class="widget-subtitle">Live dev logs & active investigations.</p>
       
       <ul class="case-list">
+        {% assign open_cases = site.posts | where: "status", "open" %}
+        
+        {% for post in open_cases limit:3 %}
         <li>
-          <a href="/projects/cor-part-1">
-            <span class="case-id">CASE 002:</span>
-            <span class="case-name">Project COR (Part 1): Building the Vision Pipeline</span>
-            <span class="case-date">Jan 16, 2026</span>
+          <a href="{{ post.url }}">
+            <span class="case-id">CASE {{ post.case_id | default: "???" }}:</span>
+            <span class="case-name">{{ post.title }}</span>
+            <span class="case-date">{{ post.date | date: "%b %d, %Y" }}</span>
           </a>
         </li>
-        <li>
-          <div style="opacity: 0.5;">
-            <span class="case-id">CASE 002:</span>
-            <span class="case-name">Part 2: Drop Tower Calibration (Pending)</span>
-          </div>
-        </li>
+        {% else %}
+        <li><span class="case-name" style="opacity:0.5;">No active investigations.</span></li>
+        {% endfor %}
       </ul>
     </div>
 
@@ -195,19 +195,22 @@ classes: wide
       <p class="widget-subtitle">Final forensic reports.</p>
       
       <ul class="case-list">
+        {% assign closed_cases = site.posts | where: "status", "closed" %}
+        
+        {% for post in closed_cases limit:5 %}
         <li>
-          <a href="/autopsies/head-auxetic">
-            <span class="case-id">CASE 001:</span>
-            <span class="case-name">Decoded: The Physics of HEAD's Auxetic Tech</span>
-            <span class="case-date">Dec 12, 2025</span>
+          <a href="{{ post.url }}">
+            <span class="case-id">CASE {{ post.case_id | default: "000" }}:</span>
+            <span class="case-name">{{ post.title }}</span>
+            <span class="case-date">{{ post.date | date: "%b %d, %Y" }}</span>
           </a>
         </li>
+        {% endfor %}
+        
         <li style="border: none; margin-top: 10px;">
           <a href="/autopsies/archive"><button class="archive-btn">View Full Evidence Locker</button></a>
         </li>
       </ul>
     </div>
 
-  </div> 
-
-</div>
+  </div>
