@@ -5,7 +5,7 @@ layout: single
 status: closed        # <--- Use 'closed' for finished reports
 case_id: "001"        # <--- Add this so the sidebar shows "CASE 001"
 categories:
-  - Industry Analysis
+  - Industry
 tags:
   - Materials
   - Auxetics
