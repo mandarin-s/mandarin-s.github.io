@@ -159,7 +159,7 @@ classes: wide
       I am a Materials Science student and competitive tennis player obsessed with one simple question: <em>What is actually happening when ball meets string?</em>
     </p>
 
-    <p>In engineering school, we are taught to solve problems using strict methodologies, maximizing for function and safety. On the tennis court, however, players evaluate equipment based on intangible sensations—claiming to feel the nuance of a micron in their strings or a slight shift in composite layup. I wanted to see if I could connect these two worlds.</p>
+    <p>In engineering school, we are taught to solve problems using strict methodologies, maximizing for function and safety. However, on the court, players claim to feel the nuance of a fraction of a gram (though much of the time we are just looking for excuses). I wanted to see if I could connect these two worlds.</p>
     
     <p>I built this site to take my biggest passion and subject it to the rigor of my classroom education. By treating the tennis racket as a complex system of viscoelastic polymers and composite laminates, I am learning how to translate subjective "feel" into quantifiable data like energy transfer (hysteresis) and vibration damping (entropy).</p>
 
