@@ -154,23 +154,25 @@ classes: wide
 <div class="lab-container">
 
   <div class="lab-manifesto">
-    <h2>The Gap Between "Feel" and Physics</h2>
+    <h2>Bridging the Gap Between "Feel" and Physics</h2>
     <p style="font-size: 1.1em; line-height: 1.6;">
-      I am a Materials Science student and competitive tennis player obsessed with one question: <em>What is actually happening when ball meets string?</em>
+      I am a Materials Science student and competitive tennis player obsessed with one simple question: <em>What is actually happening when ball meets string?</em>
     </p>
 
-    <p>In engineering school, we are taught to find heuristic solutions, maximizing for safe functionality. In tennis, players claim to feel the nuance of a micron (though sometimes they are just looking for excuses). My goal is to bridge this gap. I treat the tennis racket not just as a piece of equipment, but as a complex system of viscoelastic polymers and composite laminates that must manage energy transfer (hysteresis) and vibration damping (entropy).</p>
+    <p>In engineering school, we are taught to solve problems using strict methodologies, maximizing for function and safety. On the tennis court, however, players evaluate equipment based on intangible sensations—claiming to feel the nuance of a micron in their strings or a slight shift in composite layup. I wanted to see if I could connect these two worlds.</p>
+    
+    <p>I built this site to take my biggest passion and subject it to the rigor of my classroom education. By treating the tennis racket as a complex system of viscoelastic polymers and composite laminates, I am learning how to translate subjective "feel" into quantifiable data like energy transfer (hysteresis) and vibration damping (entropy).</p>
 
     <div style="background: #eef6fc; padding: 20px; border-left: 5px solid #207de5; margin: 30px 0;">
       <h3 style="margin-top: 0;">My Core Mission</h3>
-      <p style="margin-bottom: 0;">I seek the physical explanations for phenomenological experiences. Do the intangible sensations players describe (such as "pocketing," "crispness," and "plushness") actually hold up to scientific scrutiny? Are these experiences epistemologically true, rooted in material reality, or are they cognitive biases born from marketing and hearsay?</p>
+      <p style="margin-bottom: 0;">This lab is my open notebook. My goal is to formalize my curiosity into structured, research-driven investigations. I want to find the physical explanations for phenomenological experiences—testing whether the sensations players describe (like "pocketing" or "crispness") are rooted in measurable material reality. It is a space to learn, experiment, and document the physics behind the game I love.</p>
     </div>
   </div>
 
   <div class="sidebar-column">
 
     <div class="case-widget active-cases">
-      <h3 class="widget-title"><span>⚠️</span> Open Case Files</h3>
+      <h3 class="widget-title"><span></span> Open Case Files</h3>
       <p class="widget-subtitle">Live dev logs & active investigations.</p>
       
       <ul class="case-list">
@@ -191,7 +193,7 @@ classes: wide
     </div>
 
     <div class="case-widget closed-cases">
-      <h3 class="widget-title"><span>📁</span> Case Archive</h3>
+      <h3 class="widget-title"><span></span> Case Archive</h3>
       <p class="widget-subtitle">Final forensic reports.</p>
       
       <ul class="case-list">
