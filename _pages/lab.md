@@ -165,7 +165,7 @@ classes: wide
 
     <div style="background: #eef6fc; padding: 20px; border-left: 5px solid #207de5; margin: 30px 0;">
       <h3 style="margin-top: 0;">My Core Mission</h3>
-      <p style="margin-bottom: 0;">This lab is my open notebook. My goal is to formalize my curiosity into structured, research-driven investigations. I want to find the physical explanations for phenomenological experiences—testing whether the sensations players describe (like "pocketing" or "crispness") are rooted in measurable material reality. It is a space to learn, experiment, and document the physics behind the game I love.</p>
+      <p style="margin-bottom: 0;">This lab is my open notebook. My goal is to formalize my curiosity into structured, research-driven investigations. I want to find the physical explanations for phenomenological experiences and test whether the sensations players describe (like "pocketing" or "crispness") are rooted in measurable material reality. It is a space to learn, experiment, and document the physics behind the game I love.</p>
     </div>
   </div>
 
