@@ -1,5 +1,5 @@
 ---
-title: "Decoded: The Physics of HEAD's Auxetic & Hy-Bor Tech"
+title: "The Physics of HEAD's Auxetic & Hy-Bor Tech"
 date: 2025-12-12
 layout: single
 status: closed        # <--- Use 'closed' for finished reports
@@ -15,7 +15,7 @@ header:
   teaser: /assets/images/auxetic-structure.jpg
 ---
 
-> **Editor’s Note:** This article is a forensic breakdown of the materials science behind the "marketing jargon" seen in the 2025/2026 tennis equipment cycle.
+> **Editor’s Note:** This article is a forensic breakdown of the materials science behind the "marketing jargon" seen in the 2025/2026 "Hybor" Generation of HEAD rackets.
 
 ## Introduction
 Materials science is one of the primary drivers of innovation in sports equipment, especially in tennis. Tennis rackets, initially all made of wood, were very flexible and weren't phased out until the 1970s when stiff carbon-steel and hollow aluminum rackets became easier to process and mass-produce.
